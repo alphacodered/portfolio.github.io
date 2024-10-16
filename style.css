@@ -1,0 +1,649 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "Roboto Condensed", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.wrapper{
+    width: 1300px;
+    margin: auto;
+}
+
+/* navbar styling start */
+nav{
+    padding: 10px;
+    background-color:#000;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav > .wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.menu > ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.menu > ul > li > a {
+    text-decoration: none;
+    color:#fff;
+}
+
+/* navbar styling end */
+
+
+/* landing page start */
+header{
+    background: url(./pic/15\ Tech-Inspired\ Desktop\ Wallpapers_\ Perfect\ for\ Developers\ &\ Tech\ Enthusiasts.jpeg);
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.header-opacity{
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header-jumbotron{
+    position:absolute ;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header-jumbotron > h4{
+    color: #ffce10;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 5px #000;
+}
+
+.header-jumbotron > h5{
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+    font-size: 3rem;
+    text-shadow: 1px 1px 5px #000;
+    line-height: 4rem;
+    text-transform: uppercase;
+}
+
+.header-jumbotron > p{
+    color: #fff;
+    padding: 5px;
+    margin: 0px 5px 20px 5px;
+    text-shadow: 1px 1px 5px #000;
+}
+
+a{
+    box-shadow: 1px 1px 5px #000;
+    text-decoration: none;
+    color: #000;
+    text-shadow: none;
+    margin-top: 10px;
+}
+
+.btn{
+    background-color: #ffce10;
+    border-radius: 10px 20px;
+}
+
+.btn-lg{
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+}
+
+/* landing page end */
+
+/* Hero section start */
+
+#section{
+    background-color: #393e46;
+    color: #fff;
+}
+
+#section > .wrapper{
+    padding: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#section > .wrapper > div{
+    text-align: center;
+}
+
+#section > .wrapper > div > p{
+    font-size: 3.5rem;
+    margin: 0px;
+    padding: 10px;
+}
+
+#section > .wrapper >div > p > i{
+    margin-right: 10px;
+    font-size: 3.5rem;
+}
+
+#section > .wrapper > div > small{
+    font-size: 1.5rem;
+}
+
+/* hero section end */
+
+/* Course section start */
+
+#course{
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+}
+
+#course > .wrapper{
+    padding: 50px 0px 50px 0px;
+}
+
+#course > .wrapper > h4{
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 2.5rem;
+}
+
+#course > .wrapper > h4 > span{
+    color: #ffce10;
+    font-size: 2.5rem;
+}
+
+#course > .wrapper > p {
+    text-align: center;
+    margin-bottom:50px;
+    padding: 10px;
+}
+
+.grid{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 35% 35% 35%;
+    grid-gap: 20px;
+}
+
+.grid > .item{
+    position: relative;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color:#393e46 ;
+}
+
+.grid > .item > img{
+    width: 10%;
+    border-radius: 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.grid > .item > .item-detail > p{
+    font-size: 1.3rem;
+    padding: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+    width: 70%;
+}
+
+
+.grid > .item > .item-detail > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.grid > .item > .item-detail > div > small{
+    color: #fff;
+}
+
+.grid > .item > .item-detail > div > a{
+    border: 2px solid black;
+    font-size: 1rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* course section end */
+
+/* about me styling */
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:#ffce10 ;
+}
+
+#about > .wrapper{
+    padding: 50px 0px 50px 0px;
+}
+
+#about > .wrapper > h4{
+    font-size: 2.5rem;
+}
+
+#about > .wrapper > h4 > span{
+    color: #fff;
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 5px #000;
+}
+
+#about > .wrapper > p{
+    text-align: center;
+    padding: 20px;
+}
+
+#about > .wrapper > div{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+}
+
+#about > .wrapper > div > .foto > img {
+    max-width: 100%;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px #000;
+    border-radius: 10px 50px;
+}
+
+#about > .wrapper > div > .foto{
+    width: 30%;
+}
+
+#about > .wrapper > div > .desc {
+    text-align: start;
+    width: 70%;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#about > .wrapper > div > .desc > p{
+    padding: 10px;
+    font-weight: 700;
+    margin-top: 10px;
+    cursor: pointer;
+    line-height: 1.3rem;
+}
+
+#about > .wrapper > div > .desc > .social{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+#about > .wrapper > div > .desc > .social > a {
+    color: #00adb5;
+    box-shadow: none;
+    background-color:#fff;
+}
+
+#about > .wrapper > div > .desc > .social > a > i{
+    font-size: 1.5rem;
+}
+/* about me section end */
+
+/* footer copyright */
+footer{
+    background-color: #393e46;
+    text-align: center;
+    color: #fff;
+}
+
+footer > .wrapper{
+    padding: 20px 10px 20px 10px ;
+}
+/* footer copyright end */
+
+/* hamburger menu */
+
+button.hamburger-menu{
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+button.hamburger-menu > i {
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+
+button.hamburger-menu >.icon-close{
+    display: none;
+}
+
+
+/* responsive website  1024, 900 , 768 , 600 , 450 */
+
+@media only screen and (max-width: 1024px) {
+    .wrapper{
+        width: 90%;
+    }
+
+    .menu > ul{
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width : 900px) {
+    #section > .wrapper > div > p{
+        font-size: 2.5rem;
+        margin: 0px;
+        padding: 10px;
+    }
+    
+    #section > .wrapper >div > p > i{
+        margin-right: 10px;
+        font-size: 2.5rem;
+    }
+
+    #section > .wrapper > div > small{
+        font-size: 1.2rem;
+    }
+
+    .grid{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        grid-gap: 20px;
+    }
+
+    .grid > .item > img{
+        width: 20%;
+        border-radius: 10px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    .grid > .item > .item-detail > p{
+        font-size: 1rem;
+        padding: 10px;
+        margin-top: 30px;
+        font-weight: bold;
+        width: 70%;
+    }
+
+    .grid > .item > .item-detail > div{
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        justify-content: space-around;
+    }
+
+    /* about me responsive */
+
+    #about > .wrapper > div{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 70%;
+        margin: auto;
+    }
+    
+    #about > .wrapper > div > .foto > img {
+        max-width: 100%;
+        height: 250px;
+        border: 1px solid black;
+        box-shadow: 1px 1px 5px #000;
+        border-radius: 10px 50px;
+    }
+    
+    #about > .wrapper > div > .foto{
+        width: 30%;
+    }
+
+    #about > .wrapper > div > .desc {
+        text-align: start;
+        width: 60%;
+        padding: 20px;
+        margin: 10px;
+        border: 2px solid black;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+    
+    #about > .wrapper > div > .desc > p{
+        padding: 10px;
+        font-weight: 700;
+        margin-top: 10px;
+        cursor: pointer;
+        line-height: 1rem;
+    }
+
+    #about > .wrapper > div > .desc > .social{
+        display: flex;
+        width: 40%;
+        justify-content: space-between;
+    }
+
+    #about > .wrapper > div > .desc > .social > a > i{
+        font-size: 1.3rem;
+    }
+}
+
+
+@media only screen and (max-width : 768px) {
+
+    .header-jumbotron > h5{
+        color: #fff;
+        margin: 0;
+        padding: 10px;
+        font-size: 2.5rem;
+        text-shadow: 1px 1px 5px #000;
+        line-height: 4rem;
+        text-transform: uppercase;
+    }
+
+    .menu > ul > li > a {
+        text-decoration: none;
+        color:#fff;
+        font-size: 13px;
+        padding: 5px;
+    }
+
+    #section > .wrapper > div > p{
+        font-size: 2rem;
+        margin: 0px;
+        padding: 10px;
+    }
+
+    #section > .wrapper > div > small{
+        font-size: 1rem;
+    }
+
+    .grid{
+        grid-template-columns: 45% 45%;
+    }
+
+    .grid > .item > .item-detail > div{
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        justify-content: space-around;
+    }
+
+    #about > .wrapper > div{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+    }
+
+    #about > .wrapper > div > .foto > img {
+        max-width: 100%;
+        height: 200px;
+        border: 1px solid black;
+        box-shadow: 1px 1px 5px #000;
+        border-radius: 10px 50px;
+    }
+
+    #about > .wrapper > div > .desc {
+        text-align: start;
+        width: 70%;
+        padding: 20px;
+        margin: 10px;
+        border: 2px solid black;
+        background-color: #fff;
+        border-radius: 10px;
+
+    }
+}
+
+@media only screen and (max-width : 600px){
+
+    .header-jumbotron > h5{
+        color: #fff;
+        margin: 0;
+        padding: 10px;
+        font-size: 2rem;
+        text-shadow: 1px 1px 5px #000;
+        line-height: 4rem;
+        text-transform: uppercase;
+    }
+
+    .grid{
+        grid-template-columns: 100%;
+    }
+
+    .grid > .item > img{
+        width: 10%;
+    }
+
+    .grid > .item > .item-detail > p{
+        width: 50%;
+        font-size: 15px;
+    }
+
+    .grid > .item > .item-detail > div{
+        width: 100%;
+    }
+
+    #about > .wrapper > div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    #about > .wrapper > div > .foto > img {
+        max-width: 100%;
+        height: 200px;
+    }
+    
+    #about > .wrapper > div > .foto{
+        width: 40%;
+    }
+
+    #about > .wrapper > div > .desc{
+        width: 90%;
+    }
+
+    #about > .wrapper > div > .desc > p{
+        font-size: 15px;
+        line-height: 1.2rem;
+    }
+
+    #about > .wrapper > div > .desc > .social {
+        margin-top: 5px;
+        width: 30%;
+    }
+
+    #about > .wrapper > div > .desc > .social > a > i {
+        font-size: 1rem;
+    }
+
+    button.hamburger-menu{
+        background: none;
+        border: none;
+        cursor: pointer;
+        display: inline;
+    }
+
+    .menu{
+        display: none;
+        transition: all 0.5s ease
+    }
+    
+    .append{
+        display: inline;
+    }
+
+    .append > ul {
+        flex-direction: column;
+        background-color: #000;
+        width: 100%;
+        left: 0;
+        position: fixed;
+        top: 94px;
+        transition: all 0.5s ease;
+    }
+
+    .append > ul > li {
+        padding: 10px 20px 10px 20px ;
+    }
+
+    .append > ul > li > a{
+        font-size: 1.2rem;
+        border: none;
+        box-shadow: none;
+    }
+
+}
+
+
+
